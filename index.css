@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e01e1e;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 20px 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    list-style:none ;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a{
+    text-decoration: none;
+
+}
+li a:hover{
+    text-decoration: underline;
+}
+.small-text{
+    font-size: 0.9em;
+}
+.menu-bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.menu-bg:hover{
+    background-color: rgba(100, 100, 100, 0.1);
+}
+.menu-button{
+    width: 15px;
+}
+.sign-button{
+    background-color: blueviolet;
+    color: aliceblue;
+
+}
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form{
+    position: relative;
+    margin-top: 30px;
+
+}
+input{
+    width: 500px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid blue;
+}
+input:hover{
+    box-shadow: 0 1px 3px rgba(201, 201, 201, 0.5);
+}
+input:focus{
+    outline: none;
+}
+.search-img{
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+}
+
+
+.mic-img{
+    width: 15px;
+    position: absolute;
+    top: 12px;
+    left: 475px;
+
+}
+.buttons{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+button:hover{
+    border: 3px solid white;
+    box-shadow: 0 0 2px 1px rgba(153, 79, 79, 0.5);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: aliceblue;
+}
+.panel{
+    border-bottom: 1px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.panel >*>{ 
+    flex-basis: 33%;
+}
+p{
+    color: gray;
+    padding-left: 13px;
+}
+.carbon{
+    text-align: center;
+}
+.text{
+    width: 12px;
+}
